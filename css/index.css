@@ -144,12 +144,17 @@ nav {
   padding: 0.5%;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: grey;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-top: 2%;
 }
 .nav {
   width: 50%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  
 }
 .resume {
   background-color: gainsboro;
@@ -157,7 +162,6 @@ nav {
   height: 70%;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   padding-right: 3%;
@@ -167,8 +171,8 @@ h1{
 }
 
 .first{
-  margin-top: 19%;
-  margin-left: 5%;
+  margin-top: 29%;
+  margin-left: 1%;
   
   width: 20%;
 }
@@ -176,30 +180,29 @@ h2{
   font-size: 1.5rem;
 }
 .second{
-  
-  width: 30%;
-  margin-left: 40%;
-  position: relative;
-  top: 40%
+  width: 20%;
+  margin-top: 23%;
 }
 .skills{
-height: 30%;
-margin-left: 85%;
-position: relative;
-bottom: 50%;
+margin-top: 23%;
+margin-left: 14%;
 }
 .moreinfo{
-  background-color:lightblue;
+  background-color:dimgray;
   width: 85%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  color: whitesmoke;
 }
 .boxes{
   width: 50%;
   height: 30vh;
   padding-top: 2%;
   padding-left: 2%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 .mip{
   width: 40%;
@@ -208,4 +211,52 @@ button{
   padding: 2%;
   margin-top: 5%;
   background-color: lightgrey;
+  width: 30%;
+}
+.footer{
+  margin: 0 auto;
+  background-color:papayawhip;
+  width: 85%;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-bottom:5% ;
+}
+body{
+  background-color:lightcyan ;
+}
+.pic{
+  height: 10px;
+  width: 30px;
+}
+#tag{
+width: 30%;
+position: relative;
+bottom: 98%;
+left: 70%;
+}
+#tag2{
+  width: 30%;
+  position: relative;
+  bottom: 89%;
+  left: 70%;
+}
+#tag3{
+  width: 30%;
+  position: relative;
+  bottom: 99%;
+  left: 70%;
+}
+#face{
+  width: 25%;
+  height: 80%;
+  margin-top: 3%;
+  margin-left: 2%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
 }
