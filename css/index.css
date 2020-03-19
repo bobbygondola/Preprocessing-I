@@ -1,1 +1,211 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+  
+}
+html,
+body {
+  height: 100%;
+}
+nav {
+  width: 100%;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  padding: 0.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: grey;
+}
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.resume {
+  background-color: gainsboro;
+  width: 85%;
+  height: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-right: 3%;
+}
+h1{
+  font-size: 2rem;
+}
+
+.first{
+  margin-top: 19%;
+  margin-left: 5%;
+  
+  width: 20%;
+}
+h2{
+  font-size: 1.5rem;
+}
+.second{
+  
+  width: 30%;
+  margin-left: 40%;
+  position: relative;
+  top: 40%
+}
+.skills{
+height: 30%;
+margin-left: 85%;
+position: relative;
+bottom: 50%;
+}
+.moreinfo{
+  background-color:lightblue;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxes{
+  width: 50%;
+  height: 30vh;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+.mip{
+  width: 40%;
+}
+button{
+  padding: 2%;
+  margin-top: 5%;
+  background-color: lightgrey;
+}
